@@ -25,6 +25,7 @@ namespace GradeBook
         public char LetterGrade { get; set; }
         [JsonIgnore]
         public double GPA { get; set; }
+        
 
         public Student(string name, StudentType studentType, EnrollmentType enrollment)
         {
